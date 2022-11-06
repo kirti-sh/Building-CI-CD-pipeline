@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: 'daf18676-1224-4729-z667-b0ab282a2355'
+  azureServiceConnectionId: '94ec3a64-dcfe-4219-9e29-88221690c382'
 
   # Web app name
   webAppName: 'flaskapp-kirti-s'
