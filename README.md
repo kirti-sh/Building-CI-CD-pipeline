@@ -51,23 +51,19 @@ Install dependencies in the virtual environment and run tests: ```make all```
 
 ![image](https://user-images.githubusercontent.com/117520465/200265913-dea0c7ad-d9e7-4580-9a31-0da412d28c2e.png)
 
-Create an App Service in Azure. In this example the App Service is called flaskapp-kirti-s and the resource group is called cloud-shell-storage-centralindia:
+5. Next step is to create an App Service in Azure. In this example the App Service is called flaskapp-kirti-s and the resource group is called cloud-shell-storage-centralindia:
 
-az webapp up -n flaskapp-shankar -g cloud-shell-storage-centralindia
+```az webapp up -n flaskapp-kirti-s -g cloud-shell-storage-centralindia```
 
 The Flask app can be deployed on Azure app service manually by running the command. The app can then be tested in the Azure Cloud Shell environment by running make_predict_azure_app.sh.
 
-az webapp up --name mywebapp10021990 --resource-group azuredevops --runtime "PYTHON:3.7"
-
-Screenshot of the App Service in Azure:
+Here is the Screenshot of the App Service in Azure:
 ![image](https://user-images.githubusercontent.com/117520465/200272114-6b1d87a1-3f96-4aa0-85c7-163666f0094d.png)
 
 
-bash make_predict_azure_app.sh
+6. Now, you have to open Azure Devops here: http://dev.azure.com/
 
-Open up Azure DevOps. If you don't have an existing organization you can use, you will need to set one up using these instructions.
-(Note to grader: The remaining steps follow very closely the Microsoft documents on pipeline setup. I was planning on referring the reader to this doc, but as of this writing the Microsoft help page is out of sync with the Azure Pipelines UI. A few screens were borrowed from the Udacity instructions.)
-Create a new project.
+If you don't have an existing organization you can use, you will need to set one up using these instructions.
 
 ![image](https://user-images.githubusercontent.com/117520465/200268257-dbdaddfc-02e0-488a-b192-6dec3bada93a.png)
 
@@ -78,8 +74,6 @@ On the Project Settings page, select Pipelines > Service connections, then selec
 
 <img width="1073" alt="Screenshot 2022-11-07 at 2 40 54 PM" src="https://user-images.githubusercontent.com/117520465/200271642-f3b5d794-a4e2-4051-81d3-ba015e3b580e.png">
 
-
-On the Project Settings page, select Pipelines > Service connections, then select New service connection, and then select Azure Resource Manager from the dropdown.
 
 
 
