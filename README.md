@@ -16,6 +16,11 @@ Building a CI/CD Pipeline is a project that combines Agile Planning, Continous I
 ::Python script that contains tests for a code
 
 
+Finally, this project is documented in two steps:
+
+1. README.md file - file containing basic information on how to run a project and output screenshots of project outputs.
+2. Demo video file where the project is presented step-by-step.
+
 
 # Instructions
 
