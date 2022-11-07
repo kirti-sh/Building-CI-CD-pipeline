@@ -63,7 +63,7 @@ Here is the Screenshot of the App Service in Azure:
 
 The Flask app can be deployed on Azure app service manually by running the command.
 
-```az webapp up -n flaskapp-kirti-s -g cloud-shell-storage-centralindia```
+```az webapp up --location centralus -n flaskapp-kirti-s```
 
 You will get the url after you run the above command:
 
