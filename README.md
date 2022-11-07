@@ -74,10 +74,9 @@ If you don't have an existing organization you can use, you will need to set one
 
 
 On the Project Settings page, select Pipelines > Service connections, then select New service connection, and then select Azure Resource Manager from the dropdown.
+![image](https://user-images.githubusercontent.com/117520465/200268463-1971005e-2e19-46b2-96ba-d28b692f4087.png)
 
 ![image](https://user-images.githubusercontent.com/117520465/200278985-a9a270f6-f185-412d-a4c0-62a3d37a6ae1.png)
-
-![image](https://user-images.githubusercontent.com/117520465/200268463-1971005e-2e19-46b2-96ba-d28b692f4087.png)
 
 
 ![image](https://user-images.githubusercontent.com/117520465/200278587-28a48fb9-9274-435b-b3fe-70c8d7be68ba.png)
