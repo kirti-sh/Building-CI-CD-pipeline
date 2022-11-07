@@ -51,14 +51,19 @@ Install dependencies in the virtual environment and run tests: ```make all```
 
 ![image](https://user-images.githubusercontent.com/117520465/200265913-dea0c7ad-d9e7-4580-9a31-0da412d28c2e.png)
 
-5. Next step is to create an App Service in Azure. In this example the App Service is called flaskapp-kirti-s and the resource group is called cloud-shell-storage-centralindia:
-
-```az webapp up -n flaskapp-kirti-s -g cloud-shell-storage-centralindia```
-
-The Flask app can be deployed on Azure app service manually by running the command. The app can then be tested in the Azure Cloud Shell environment by running make_predict_azure_app.sh.
+5. Next step is to create an App Service in Azure. In this example the App Service is called flaskapp-kirti-s. 
 
 Here is the Screenshot of the App Service in Azure:
 ![image](https://user-images.githubusercontent.com/117520465/200272114-6b1d87a1-3f96-4aa0-85c7-163666f0094d.png)
+
+The Flask app can be deployed on Azure app service manually by running the command.
+
+```az webapp up -n flaskapp-kirti-s -g cloud-shell-storage-centralindia```
+
+You will get the url after you run the above command:
+
+![image](https://user-images.githubusercontent.com/117520465/200277740-19cadc36-07f2-413c-a9f1-22b2702c2e05.png)
+
 
 
 6. Now, you have to open Azure Devops here: http://dev.azure.com/
@@ -78,6 +83,7 @@ On the Project Settings page, select Pipelines > Service connections, then selec
 
 Screenshot of a successful run of the project in Azure Pipelines:
 
+ The app can then be tested in the Azure Cloud Shell environment by running make_predict_azure_app.sh.
 
 ./make_predict_azure_app.sh 
 If it's working you should see the following output:
