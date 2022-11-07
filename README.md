@@ -76,23 +76,28 @@ If you don't have an existing organization you can use, you will need to set one
 On the Project Settings page, select Pipelines > Service connections, then select New service connection, and then select Azure Resource Manager from the dropdown.
 ![image](https://user-images.githubusercontent.com/117520465/200268463-1971005e-2e19-46b2-96ba-d28b692f4087.png)
 
+![image](https://user-images.githubusercontent.com/117520465/200278587-28a48fb9-9274-435b-b3fe-70c8d7be68ba.png)
+
 ![image](https://user-images.githubusercontent.com/117520465/200278985-a9a270f6-f185-412d-a4c0-62a3d37a6ae1.png)
 
 
-![image](https://user-images.githubusercontent.com/117520465/200278587-28a48fb9-9274-435b-b3fe-70c8d7be68ba.png)
 
 
 
 Screenshot of a successful run of the project in Azure Pipelines:
 
+![image](https://user-images.githubusercontent.com/117520465/200280333-aa6140a4-7b08-4f56-8fd9-10d9481eb423.png)
+
+
 <img width="1073" alt="Screenshot 2022-11-07 at 2 40 54 PM" src="https://user-images.githubusercontent.com/117520465/200271642-f3b5d794-a4e2-4051-81d3-ba015e3b580e.png">
 
  The app can then be tested in the Azure Cloud Shell environment by running make_predict_azure_app.sh.
 
-./make_predict_azure_app.sh 
+```./make_predict_azure_app.sh ```
+
 If it's working you should see the following output:
 
-You can also visit the URL of the App Service via the browser and you should see the following page:
+You can also visit the URL of the App Service from your browser and you should see the following page:
 
 
 ![image](https://user-images.githubusercontent.com/117520465/200273724-29caf6cc-1ebb-45bd-b55f-37d30791cf17.png)
