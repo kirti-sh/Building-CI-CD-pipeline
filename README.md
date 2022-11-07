@@ -74,14 +74,19 @@ If you don't have an existing organization you can use, you will need to set one
 
 
 On the Project Settings page, select Pipelines > Service connections, then select New service connection, and then select Azure Resource Manager from the dropdown.
+
+![image](https://user-images.githubusercontent.com/117520465/200278985-a9a270f6-f185-412d-a4c0-62a3d37a6ae1.png)
+
 ![image](https://user-images.githubusercontent.com/117520465/200268463-1971005e-2e19-46b2-96ba-d28b692f4087.png)
 
 
-<img width="1073" alt="Screenshot 2022-11-07 at 2 40 54 PM" src="https://user-images.githubusercontent.com/117520465/200271642-f3b5d794-a4e2-4051-81d3-ba015e3b580e.png">
+![image](https://user-images.githubusercontent.com/117520465/200278587-28a48fb9-9274-435b-b3fe-70c8d7be68ba.png)
 
 
 
 Screenshot of a successful run of the project in Azure Pipelines:
+
+<img width="1073" alt="Screenshot 2022-11-07 at 2 40 54 PM" src="https://user-images.githubusercontent.com/117520465/200271642-f3b5d794-a4e2-4051-81d3-ba015e3b580e.png">
 
  The app can then be tested in the Azure Cloud Shell environment by running make_predict_azure_app.sh.
 
