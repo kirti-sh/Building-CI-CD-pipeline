@@ -76,6 +76,14 @@ On the Project Settings page, select Pipelines > Service connections, then selec
 
 
 
+Screenshot of a successful run of the project in Azure Pipelines:
+
+
+./make_predict_azure_app.sh 
+If it's working you should see the following output:
+
+You can also visit the URL of the App Service via the browser and you should see the following page:
+
 
 ![image](https://user-images.githubusercontent.com/117520465/200273724-29caf6cc-1ebb-45bd-b55f-37d30791cf17.png)
 
