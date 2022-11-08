@@ -8,6 +8,5 @@ test:
 	 
 
 lint:
-	python -m pylint --disable=R,C,W1203,W0703 app.py
-
+	pylint --disable=R,C hello.py
 all: install lint test
