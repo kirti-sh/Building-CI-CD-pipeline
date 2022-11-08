@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/kirti0141/Building-CI-CD-pipeline/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/kirti0141/Building-CI-CD-pipeline/actions/workflows/python-app.yml)
+
 # Building-CI-CD-pipeline
 
 
