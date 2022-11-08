@@ -1,6 +1,6 @@
+# Building-CI-CD-pipeline
 [![Python application test with Github Actions](https://github.com/kirti0141/Building-CI-CD-pipeline/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/kirti0141/Building-CI-CD-pipeline/actions/workflows/python-app.yml)
 
-# Building-CI-CD-pipeline
 
 
 Building a CI/CD Pipeline is a project that combines Agile Planning, Continous Integration, and Continous Delivery concepts. 
